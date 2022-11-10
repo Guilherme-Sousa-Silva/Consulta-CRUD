@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+mat-form-field{
+    margin-left: 15px;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-right: 15px;
+}

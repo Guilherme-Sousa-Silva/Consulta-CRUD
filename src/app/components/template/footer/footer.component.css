@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1D364C;;
+}
+
+.footer span {
+    color:  #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.consulta {
+    color: #76C2EC !important;
+    font-weight: 700;
+}

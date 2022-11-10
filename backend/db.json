@@ -1,0 +1,28 @@
+{
+  "consultas": [
+    {
+      "id": 1,
+      "patientsName": "José da silva sauro",
+      "patientsAge": 27,
+      "patientsBirthday": "07/11/2001",
+      "patientsCPF": "123.252.938-90",
+      "phoneNumber": 932679317,
+      "emailAddress": "jose@example.com",
+      "CEP": "079.52-000",
+      "address": "Avenida Emilio Ribas",
+      "adressNumber": 865,
+      "addressNumber": "850"
+    },
+    {
+      "patientsName": "Guilherme",
+      "patientsBirthday": "07/11/2001",
+      "patientsCPF": "45525508885",
+      "phoneNumber": "932679317",
+      "emailAddress": "gui@gmail.com",
+      "CEP": "07052000",
+      "address": "Rua dona dica",
+      "addressNumber": "850",
+      "id": 2
+    }
+  ]
+}

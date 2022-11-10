@@ -1,0 +1,22 @@
+.sidenav {
+    background-color: #1D364C;
+    width: 140px;
+}
+
+.sidenav a {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mat-text:hover {
+    text-decoration: underline;;
+}
+
+.sidenav span {
+    padding-right: 5px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #FFF;
+}

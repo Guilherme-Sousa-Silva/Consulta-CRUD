@@ -1,0 +1,84 @@
+<mat-card>
+  <mat-card-title>Excluir consulta</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nome completo"
+        [(ngModel)]="consult.patientsName"
+        name="patientsName"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nascimento"
+        [(ngModel)]="consult.patientsBirthday"
+        name="patientsBirthday"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="CPF"
+        [(ngModel)]="consult.patientsCPF"
+        name="patientsCPF"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Número de telefone"
+        [(ngModel)]="consult.phoneNumber"
+        name="phoneNumber"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="email@gmail.com"
+        [(ngModel)]="consult.emailAddress"
+        name="emailAddress"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="CEP"
+        [(ngModel)]="consult.CEP"
+        name="CEP"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Endereço"
+        [(ngModel)]="consult.address"
+        name="address"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Número"
+        [(ngModel)]="consult.addressNumber"
+        name="addressNumber"
+        disabled
+      />
+    </mat-form-field>
+  </form>
+
+  <div class="div-button">
+    <button mat-raised-button color="primary" (click)="deleteConsult()">
+      Excluir
+    </button>
+    <button mat-raised-button color="warn" (click)="cancel()">Cancelar</button>
+  </div>
+</mat-card>
