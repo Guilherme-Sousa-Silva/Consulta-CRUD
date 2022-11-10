@@ -5,6 +5,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { CreateConsultaComponent } from "./components/consultas/create-consulta/create-consulta.component";
 import { ConsultaCrudComponent } from "./views/consulta-crud/consulta-crud.component";
 import { HomeComponent } from "./views/home/home.component";
+import { LoginComponent } from "./views/login/login.component";
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: "consultas/delete/:id",
     component: DeleteConsultaComponent,
+  },
+  {
+    path: "login",
+    component: LoginComponent,
   },
 ];
 

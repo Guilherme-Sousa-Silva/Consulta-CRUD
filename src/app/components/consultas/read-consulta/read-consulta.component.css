@@ -9,3 +9,8 @@ table {
 .delete {
   color: #E35E6B;
 }
+
+.table {
+  max-width: 88%;
+  margin-left: 150px;
+}

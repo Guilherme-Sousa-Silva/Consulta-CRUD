@@ -20,3 +20,8 @@ img {
     color: #76C2EC;
     font-weight: 700;
 }
+
+.home {
+    max-width: 100%;
+    margin-left: 150px;
+}

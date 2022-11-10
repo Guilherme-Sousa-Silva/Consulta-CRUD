@@ -25,6 +25,8 @@ import { ReadConsultaComponent } from "./components/consultas/read-consulta/read
 import { MatTableModule } from "@angular/material/table";
 import { UpdateConsultaComponent } from './components/consultas/update-consulta/update-consulta.component';
 import { DeleteConsultaComponent } from './components/consultas/delete-consulta/delete-consulta.component';
+import { LoginComponent } from './views/login/login.component';
+import { ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -38,6 +40,7 @@ import { DeleteConsultaComponent } from './components/consultas/delete-consulta/
     ReadConsultaComponent,
     UpdateConsultaComponent,
     DeleteConsultaComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,6 +57,7 @@ import { DeleteConsultaComponent } from './components/consultas/delete-consulta/
     MatFormFieldModule,
     MatInputModule,
     MatTableModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
