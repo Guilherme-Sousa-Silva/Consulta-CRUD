@@ -6,7 +6,7 @@
     <mat-form-field>
       <input
         matInput
-        placeholder="Nome completo"
+        placeholder="Nome do Paciente"
         [(ngModel)]="consult.patientsName"
         name="patientsName"
       />
@@ -60,6 +60,22 @@
         placeholder="Número"
         [(ngModel)]="consult.addressNumber"
         name="addressNumber"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nome do Médico"
+        [(ngModel)]="consult.doctorsName"
+        name="doctorsName"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="CRM"
+        [(ngModel)]="consult.CRM"
+        name="CRM"
       />
     </mat-form-field>
   </form>

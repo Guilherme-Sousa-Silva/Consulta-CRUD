@@ -18,6 +18,8 @@ export class ReadConsultaComponent implements OnInit {
     "emailAddress",
     "CEP",
     "address",
+    "doctorsName",
+    "CRM",
     "action",
   ];
 

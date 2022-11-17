@@ -18,6 +18,8 @@ export class CreateConsultaComponent implements OnInit {
     CEP: "",
     address: "",
     addressNumber: undefined,
+    doctorsName: "",
+    CRM: "",
   };
 
   constructor(private consultService: ConsultService, private router: Router) {}

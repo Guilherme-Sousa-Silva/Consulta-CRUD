@@ -10,8 +10,9 @@
       "emailAddress": "jose@example.com",
       "CEP": "079.52-000",
       "address": "Avenida Emilio Ribas",
-      "adressNumber": 865,
-      "addressNumber": "850"
+      "addressNumber": "850",
+      "doctorsName": "José Azevedo da Silva",
+      "CRM": "543216/SP"
     },
     {
       "patientsName": "Guilherme",
@@ -23,6 +24,19 @@
       "address": "Rua dona dica",
       "addressNumber": "850",
       "id": 2
+    },
+    {
+      "patientsName": "Guilherme de Sousa Silva",
+      "patientsBirthday": "11/07/2001",
+      "patientsCPF": "45525508885",
+      "phoneNumber": "11932679317",
+      "emailAddress": "gui@gmail.com",
+      "CEP": "07052000",
+      "address": "Rua Alegre ",
+      "addressNumber": "752",
+      "doctorsName": "João Baptista de Souza",
+      "CRM": "752698/SP",
+      "id": 3
     }
   ]
 }

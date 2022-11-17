@@ -8,4 +8,6 @@ export interface Consult {
   CEP: string;
   address: string;
   addressNumber?: number;
+  doctorsName: string,
+  CRM: string;
 }
